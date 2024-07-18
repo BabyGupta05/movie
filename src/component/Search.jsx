@@ -4,7 +4,7 @@ import { useState } from "react";
 import axios from "axios";
 
 export const Search = () => {
-  const API_URL = "http://www.omdbapi.com/?apikey=1696d76b";
+  const API_URL = "https://www.omdbapi.com/?apikey=1696d76b";
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
